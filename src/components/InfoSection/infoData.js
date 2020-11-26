@@ -1,0 +1,48 @@
+export const homeObjOne = {
+    id: 'about',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'About Me',
+    headLine: 'Always Learning',
+    description: "I've always been a believer that learning never stops and personal growth is always something to strive for. I've worked in the Telecommunications industry for many years working with everything from large and small businesses to large national networks. Recently, I have moved into a position working with an IP and VOIP DevOps team helping to transform the way our company utilizes technology. With my future goals in mind, I recently enrolled in University of Denver’s Full Stack Coding Boot Camp. It’s been intense but I’ve learned an incredible amount of data. When I’m not at work or studying, you can often find me engaged in reading various books and articles on how-to's, current and historical events, and the latest mystery crime novel. When I'm not engaged in indoor activities, I’m usually not too far from a body of water fishing with my family with everything from reel, ice, to fly. I can’t say I’m very good, but I enjoy it nonetheless and think it’s one of the most relaxing things a person can do.",
+    imgStart: false,
+    img: require('../../assets/images/croppedself.svg'),
+    alt: "self",
+    dark: true,
+    primary: true,
+    darkText: false,
+};
+
+export const homeObjTwo = {
+    id: 'portfolio',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'Portfolio',
+    headLine: 'A few Full Stack projects I have worked on',
+    description: "Click the individual images below to find out more. These are all projects that have been completed during my time in Univeristy of Denver's Full Stack Coding Boot Camp",
+    // buttonLabel: 'maybe',
+    imgStart: false,
+    img: require('../../assets/images/mailicon.png'),
+    alt: "photo",
+    // dark: false,
+    primary: false,
+    darkText: true,
+};
+
+// export const homeObjThree = {
+//     id: 'contact',
+//     lightBg: false,
+//     lightText: true,
+//     lightTextDesc: true,
+//     topLine: 'Contact Me',
+//     headLine: 'Have feedback or questions? Contact Me',
+//     buttonLabel: 'Contact Me',
+//     imgStart: false,
+//     img: require('../../assets/images/croppedself.png'),
+//     alt: "photo",
+//     dark: true,
+//     primary: true,
+//     darkText: false,
+// };
