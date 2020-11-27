@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import NavBar from '../components/NavBar/navBarIndex';
 import HeroSection from '../components/HeroSection/heroIndex';
-import { homeObjOne, homeObjTwo } from '../components/InfoSection/infoData';
-import InfoSection from '../components/InfoSection/InfoIndex'
+import { homeObjOne, homeObjTwo, homeObjThree } from '../components/InfoSection/infoData';
+import InfoSection from '../components/InfoSection/InfoIndex';
 import Portfolio from '../components/Portfolio/portfolioIndex';
 import Footer from '../components/Footer/footerIndex';
 import SideBar from '../components/SideBar/sideBarIndex';
@@ -23,8 +23,9 @@ const Home = () => {
         <HeroSection />
         <InfoSection {...homeObjOne} />
         <InfoSection {...homeObjTwo} />
+        <InfoSection {...homeObjThree} />
         <Portfolio />
-        {/* <InfoSection {...homeObjThree} /> */}
+
 
 
         <Footer />

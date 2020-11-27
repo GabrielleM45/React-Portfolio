@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-// import img from '../../assets/images/croppedheader.png';
 import { AiOutlineDown } from 'react-icons/ai';
 import { FaChevronDown } from 'react-icons/fa';
 

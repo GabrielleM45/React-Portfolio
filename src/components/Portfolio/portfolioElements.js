@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link as LinkRoute } from 'react-router-dom'
 
 export const PortfolioContainer = styled.div `
     height: 800px;
@@ -50,7 +51,7 @@ export const PortfolioCard = styled.div `
     justify-content: flex-start;
     align-items: center;
     border-radius: 10px;
-    max-height: 340px;
+    max-height: 360px;
     padding: 30px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.2);
     transition: all 0.3s ease-in-out;
@@ -68,6 +69,9 @@ export const PortfolioIcon = styled.div `
 `
 export const Icon1 = styled.img `
 
+`
+export const IconLink = styled(LinkRoute)
+`
 `
 export const PortfolioH2 = styled.h2 `
     font-size: 1rem;

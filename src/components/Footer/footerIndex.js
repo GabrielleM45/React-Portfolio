@@ -17,17 +17,22 @@ const FooterIndex = () => {
                 <FooterLinksContainer>
                     <FooterLinksWrapper>
                         <FooterLinkItems>
-                            <FooterLinkTitle></FooterLinkTitle>
+
                                 <FooterLink to="about">About Me</FooterLink>
                             </FooterLinkItems>
+
                             <FooterLinkItems>
-                            <FooterLinkTitle></FooterLinkTitle>
                                 <FooterLink to="portfolio">Portfolio</FooterLink>
                             </FooterLinkItems>
+
                             <FooterLinkItems>
-                            <FooterLinkTitle></FooterLinkTitle>
-                            <FooterLink to='/contactMe'>Contact Me</FooterLink>
+                                <FooterLink to="resume"> Resume </FooterLink>
                             </FooterLinkItems>
+
+                            <FooterLinkItems>
+                                <FooterLink to='/contactMe'>Contact Me</FooterLink>
+                            </FooterLinkItems>
+
                     </FooterLinksWrapper>
                 </FooterLinksContainer>
 
@@ -43,7 +48,7 @@ const FooterIndex = () => {
                             aria-label="Github">
                             <VscGithubInverted/></SocialIconLink>
 
-                            <SocialIconLink href="/"
+                            <SocialIconLink href="//www.linkedin.com/in/gabrielle-maxey-97839a1a9/"
                                 target="_blank"
                                 aria-label="Linkedin">
                             <AiOutlineLinkedin/> </SocialIconLink>

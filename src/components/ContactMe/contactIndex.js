@@ -1,9 +1,11 @@
 import React from 'react';
-import { ContactContainer, ContactForm, ContactFormInput, ContactFormLabel, ContactFormWrap, ContactIcon, FormButton, FormContent, ContactFormH1 } from './contactElements';
+import { ContactContainer, ContactForm, ContactFormInput, ContactFormLabel, ContactFormWrap, ContactIcon, FormButton, FormContent, ContactFormH1, Background } from './contactElements';
+
 
 const ContactMe = () => {
     return (
 <>
+    <Background>
         <ContactContainer>
                 <ContactFormWrap>
                     <ContactIcon to="/">gm</ContactIcon>
@@ -24,6 +26,7 @@ const ContactMe = () => {
                         </FormContent>
                 </ContactFormWrap>
         </ContactContainer>
+    </Background>
 </>
 );
 };

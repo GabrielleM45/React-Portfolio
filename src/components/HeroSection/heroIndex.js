@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Video from '../../assets/Video/video.mp4';
-import { Button } from '../buttonElements';
+import { Button1 } from '../Buttons/button1Elements';
 
 import { HeroContainer, HeroBg, HeroContent, HeroVid, HeroP, HeroH1, HeroBtnWrapper, HeroArrowDown, HeroArrowDown2 } from './heroElements';
 
@@ -23,7 +23,7 @@ const onHover = () => {
                                 </HeroP>
 
                         <HeroBtnWrapper>
-                            <Button to="about" smooth={true} duration={500} spy={true} exact='true' offset={ -80 } onMouseEnter={onHover} onMouseLeave={onHover} > { hover ? <HeroArrowDown2 /> : <HeroArrowDown />} </Button>
+                            <Button1 to="about" smooth={true} duration={500} spy={true} exact='true' offset={ -80 } onMouseEnter={onHover} onMouseLeave={onHover} > { hover ? <HeroArrowDown2 /> : <HeroArrowDown />} </Button1>
                     </HeroBtnWrapper>
             </HeroContent>
         </HeroContainer>

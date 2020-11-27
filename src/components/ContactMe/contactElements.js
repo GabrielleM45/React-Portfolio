@@ -1,6 +1,10 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
+export const Background = styled.div`
+background-color: #081d47;
+`
+
 export const ContactContainer = styled.div `
     min-height: 692px;
     ${'' /* position: fixed; */}

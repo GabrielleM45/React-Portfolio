@@ -15,6 +15,7 @@ const SideBar = ({ isOpen, toggle }) => {
 
                         <SideBarLink to="about" smooth={true} duration={500} spy={true} exact='true' offset={ -80 }  onClick={ toggle }> About Me </SideBarLink>
                         <SideBarLink to="portfolio" smooth={true} duration={500} spy={true} exact='true' offset={ -80 }> Portfolio </SideBarLink>
+                        <SideBarLink to="resume" smooth={true} duration={500} spy={true} exact='true' offset={ -80 }> Resume </SideBarLink>
                         <SideBarRoute to="/contactMe" > Contact Me </SideBarRoute>
 
                     </SideBarMenu>
