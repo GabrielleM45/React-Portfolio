@@ -19,7 +19,7 @@ const Portfolio = () => {
                 </PortfolioCard>
 
                 <PortfolioCard>
-                    <IconLink onClick={() => window.open('https://github.com/GabrielleM45/Movia')}>
+                    <IconLink onClick={() => window.open('https://github.com/GabrielleM45/Budget_Tracker')}>
                     <PortfolioIcon src={ Icon2 } type='image/png'/> </IconLink>
                     <PortfolioH2>Budget Tracker </PortfolioH2>
                     <PortfolioP> This application demonstrates a Progressive Web Application with the ability to access and fully utilize features while offline.  </PortfolioP>
